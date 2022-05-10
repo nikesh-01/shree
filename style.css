@@ -1,0 +1,45 @@
+    * {
+        background-color: white;
+    }
+    
+    .wish {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 4%;
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+        color: red;
+        letter-spacing: 0.1em;
+        font-family: 'Pacifico', cursive;
+        background: -webkit-linear-gradient(#ffff00, #ff1493);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 3s infinite ease-in-out;
+    }
+    
+    img {
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 400px;
+        width: 400px;
+    }
+    
+    button {
+        text-align: c;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px;
+        margin-left: 540px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        color: white;
+        background-color: red;
+    }
