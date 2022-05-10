@@ -1,0 +1,14 @@
+* {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 95vh;
+    width: 25vw;
+    float: left;
+    padding: 5px;
+}
