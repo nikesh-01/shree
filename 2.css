@@ -1,95 +1,93 @@
-        * {
-            transition: all 0.2s ease-in-out;
-        }
-        
-        body {
-            background: #008888;
-            display: grid;
-            place-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        .card {
-            background: #fdfdfd;
-            border-radius: 4px;
-            height: 85vh;
-            width: 80vw;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 1em;
-            overflow: hidden;
-        }
-        
-        @media only screen and (min-width: 1000px) {
-            .card {
-                flex-direction: row-reverse;
-            }
-            .card img.birthday {
-                width: 100%;
-                max-width: 50vw;
-                max-height: unset;
-            }
-        }
-        
-        @media only screen and (max-height: 640px) {
-            .card {
-                flex-direction: row-reverse;
-            }
-            .card img.birthday {
-                width: 100%;
-                max-width: 50vw;
-                max-height: unset;
-            }
-        }
-        
-        h1 {
-            font-size: 45px;
-            font-family: 'Pacifico', cursive;
-            background: -webkit-linear-gradient(#ffff00, #ff1493, red, green, blue, silver, gold, lime);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        p {
-            font-size: 18px;
-            background: -webkit-linear-gradient( #ff1493, red, green, blue);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'Pacifico', cursive, bold, italic;
-        }
-        
-        img.birthday {
-            max-height: 40vh;
-        }
-        
-        .text {
-            padding: 1em;
-        }
-        
-        .muted {
-            opacity: 0.8;
-        }
-        
-        .space {
-            height: 100px;
-        }
-        
-        button {
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 50px;
-            margin: 20px;
-            color: pink;
-            background-color: black;
-        }
-        
-        button:hover {
-            cursor: pointer;
-            background-color: red;
-        }
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background: #008888;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 85vh;
+    width: 80vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+    .card {
+        flex-direction: row-reverse;
+    }
+    .card img.birthday {
+        width: 100%;
+        max-width: 50vw;
+        max-height: unset;
+    }
+}
+
+@media only screen and (max-height: 640px) {
+    .card {
+        flex-direction: row-reverse;
+    }
+    .card img.birthday {
+        width: 100%;
+        max-width: 50vw;
+        max-height: unset;
+    }
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    background: -webkit-linear-gradient(#ffff00, #ff1493, red, green, blue, silver, gold, lime);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 18px;
+    background: -webkit-linear-gradient( #ff1493, red, green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pacifico', cursive, bold;
+}
+
+img.birthday {
+    margin-top: 90px;
+    height: 250px;
+    width: 250px;
+}
+
+.muted {
+    opacity: 0.8;
+}
+
+.space {
+    height: 100px;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    color: pink;
+    background-color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
